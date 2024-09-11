@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+E:/Mach_dien_project/LAB1_project/2
+    LAB1_project.opj
+    lab1_project.dsn
+E:/Mach_dien_project/LAB1_project/2/LAB1_project-PSpiceFiles
+E:/Mach_dien_project/LAB1_project/2/LAB1_project-PSpiceFiles/SCHEMATIC1

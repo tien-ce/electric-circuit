@@ -1,0 +1,6 @@
+* source LAB1_PROJECT
+R_R1         N00203 N00210  4 TC=0,0 
+V_V2         N00221 N00214 4Vdc
+V_V4         N00203 0 12Vdc
+R_R2         0 N00221  6 TC=0,0 
+E_E1         N00210 N00214 0 N00221 2
