@@ -18,10 +18,19 @@
     (File ".\lab1_project-pspicefiles\schematic1\schematic1.net"
       (Type "Report")))
   (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries")
-    (Folder "Stimulus Files")
-    (Folder "Include Files"))
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\lab1_project-pspicefiles\schematic1\lab1_project_analys.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab1_project-pspicefiles\schematic1\lab1_project_analys.sim"
+        (DisplayName "SCHEMATIC1-lab1_project_analys")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
@@ -47,12 +56,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\Mach_dien_project\LAB1_project\lab1_project.dsn")
+      (Path "Design Resources"
+         "E:\Mach_dien_project\LAB1_project\lab1_project.dsn" "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "E:\Mach_dien_project\LAB1_project\lab1_project.dsn"))
+         "E:\Mach_dien_project\LAB1_project\lab1_project.dsn" "SCHEMATIC1"
+         "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
-      (Tab 0))))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 765")
+        (Scroll "-130 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MACH_DIEN_PROJECT\LAB1_PROJECT\LAB1_PROJECT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

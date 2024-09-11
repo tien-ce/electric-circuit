@@ -1,0 +1,89 @@
+
+**** 09/12/24 03:28:11 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-lab1_project_analys"  [ E:\Mach_dien_project\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\lab1_project_a
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab1_project_analys.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB1_PROJECT
+R_R1         N00203 N00210  4 TC=0,0 
+V_V2         N00221 N00214 4Vdc
+V_V4         N00203 0 12Vdc
+R_R2         0 N00221  6 TC=0,0 
+E_E1         N00210 N00214 0 N00221 2
+
+**** RESUMING lab1_project_analys.cir ****
+.END
+
+**** 09/12/24 03:28:11 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-lab1_project_analys"  [ E:\Mach_dien_project\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\lab1_project_a
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00203)   12.0000 (N00210)   44.0000 (N00214)  -52.0000 (N00221)  -48.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         8.000E+00
+    V_V4         8.000E+00
+
+    TOTAL POWER DISSIPATION  -1.28E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/12/24 03:28:11 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-lab1_project_analys"  [ E:\Mach_dien_project\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\lab1_project_a
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        4.81
+
