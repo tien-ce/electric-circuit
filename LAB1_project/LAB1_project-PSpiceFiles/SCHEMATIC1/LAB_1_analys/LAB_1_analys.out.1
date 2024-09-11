@@ -1,0 +1,57 @@
+
+**** 09/12/24 01:54:30 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-LAB_1_analys"  [ E:\Mach_dien_project\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB_1_analys.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "LAB_1_analys.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB1_PROJECT
+R_R1         N01855 N01867  2 TC=0,0 
+R_R2         N01867 N01877  3 TC=0,0 
+R_R3         N01877 N01886  4 TC=0,0 
+R_R4         N01902 N01886  5 TC=0,0 
+R_R5         N01909 N01902  3 TC=0,0 
+R_R6         N01909 N01877  4 TC=0,0 
+R_R7         N01909 N01867  6 TC=0,0 
+R_R8         0 N01909  1 TC=0,0 
+V_V1         M_UN0001 M_UN0002 12Vdc
+
+**** RESUMING LAB_1_analys.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N01855.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node M_UN0001.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node M_UN0002.
+
+ERROR(ORPSIM-15142): Node M_UN0001 is floating
+
+ERROR(ORPSIM-15142): Node M_UN0002 is floating
+
