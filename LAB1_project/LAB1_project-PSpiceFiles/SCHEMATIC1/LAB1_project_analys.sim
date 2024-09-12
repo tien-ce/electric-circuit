@@ -2,12 +2,12 @@
 
 @Settings: 3 1
 @General:
-ProfileName= "LAB_1_analys" 
-ProfileFile= "LAB_1_analys.sim" 
+ProfileName= "LAB1_project_analys" 
+ProfileFile= "LAB1_project_analys.sim" 
 Connectivity= "SCHEMATIC1.net" 
-NetlistFile= "LAB_1_analys.cir" 
-DataFile= "LAB_1_analys.dat" 
-OutFile= "LAB_1_analys.out" 
+NetlistFile= "LAB1_project_analys.cir" 
+DataFile= "LAB1_project_analys.dat" 
+OutFile= "LAB1_project_analys.out" 
 Notes=
 @#$BEGINNOTES
 @#$ENDNOTES
