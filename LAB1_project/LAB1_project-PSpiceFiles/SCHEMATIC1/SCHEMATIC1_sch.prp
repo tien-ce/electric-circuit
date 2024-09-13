@@ -13,6 +13,10 @@
                     ("value"	"2")
                     ("pspice_param"	"VALUE")
                 )
+                ("BiasValue Power"
+                    ("value"	"8.000W")
+                    ("pspice_param"	"BiasValue Power")
+                )
                 ("PSpice Model Type"
                     ("value"	"0011")
                     ("pspice_param"	"PSpice Model Type")
@@ -59,6 +63,10 @@
                 ("VALUE"
                     ("value"	"3")
                     ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"3.000W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")
@@ -107,6 +115,10 @@
                     ("value"	"4")
                     ("pspice_param"	"VALUE")
                 )
+                ("BiasValue Power"
+                    ("value"	"250.0mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
                 ("PSpice Model Type"
                     ("value"	"0011")
                     ("pspice_param"	"PSpice Model Type")
@@ -153,6 +165,10 @@
                 ("VALUE"
                     ("value"	"5")
                     ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"312.5mW")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")
@@ -201,6 +217,10 @@
                     ("value"	"3")
                     ("pspice_param"	"VALUE")
                 )
+                ("BiasValue Power"
+                    ("value"	"187.5mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
                 ("PSpice Model Type"
                     ("value"	"0011")
                     ("pspice_param"	"PSpice Model Type")
@@ -247,6 +267,10 @@
                 ("VALUE"
                     ("value"	"4")
                     ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"2.250W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")
@@ -295,6 +319,10 @@
                     ("value"	"6")
                     ("pspice_param"	"VALUE")
                 )
+                ("BiasValue Power"
+                    ("value"	"6.000W")
+                    ("pspice_param"	"BiasValue Power")
+                )
                 ("PSpice Model Type"
                     ("value"	"0011")
                     ("pspice_param"	"PSpice Model Type")
@@ -341,6 +369,10 @@
                 ("VALUE"
                     ("value"	"1")
                     ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"4.000W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")

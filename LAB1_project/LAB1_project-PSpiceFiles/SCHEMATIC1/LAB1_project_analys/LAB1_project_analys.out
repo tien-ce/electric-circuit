@@ -1,5 +1,5 @@
 
-**** 09/12/24 12:49:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
 
@@ -45,7 +45,7 @@ V_V1         N01855 0 12Vdc
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-**** 09/12/24 12:49:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
 
@@ -78,7 +78,7 @@ V_V1         N01855 0 12Vdc
 
           JOB CONCLUDED
 
-**** 09/12/24 12:49:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
 
@@ -90,5 +90,5 @@ V_V1         N01855 0 12Vdc
 
 
 
-  Total job time (using Solver 1)   =        1.70
+  Total job time (using Solver 1)   =         .52
 
