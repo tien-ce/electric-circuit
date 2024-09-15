@@ -1,7 +1,7 @@
 
-**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
+ ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
 
  ****     CIRCUIT DESCRIPTION
@@ -32,22 +32,16 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-R_R1         N01855 N01867  2 TC=0,0 
-R_R2         N01867 N01877  3 TC=0,0 
-R_R3         N01877 N01886  4 TC=0,0 
-R_R4         N01902 N01886  5 TC=0,0 
-R_R5         N01909 N01902  3 TC=0,0 
-R_R6         N01909 N01877  4 TC=0,0 
-R_R7         N01909 N01867  6 TC=0,0 
-R_R8         0 N01909  1 TC=0,0 
-V_V1         N01855 0 12Vdc
+V_V1         N06454 0 24Vdc
+R_R1         N06466 N06454  15k TC=0,0 
+R_R2         0 N06466  3.9k TC=0,0 
 
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
+ ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -60,9 +54,7 @@ V_V1         N01855 0 12Vdc
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N01855)   12.0000 (N01867)    8.0000 (N01877)    5.0000 (N01886)    4.0000     
-
-(N01902)    2.7500 (N01909)    2.0000 
+(N06454)   24.0000 (N06466)    4.9524 
 
 
 
@@ -70,17 +62,17 @@ V_V1         N01855 0 12Vdc
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -2.000E+00
+    V_V1        -1.270E-03
 
-    TOTAL POWER DISSIPATION   2.40E+01  WATTS
+    TOTAL POWER DISSIPATION   3.05E-02  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 09/13/24 09:59:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
+ ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
 
  ****     JOB STATISTICS SUMMARY
@@ -90,5 +82,5 @@ V_V1         N01855 0 12Vdc
 
 
 
-  Total job time (using Solver 1)   =         .52
+  Total job time (using Solver 1)   =         .74
 

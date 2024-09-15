@@ -1,7 +1,7 @@
+
+**** 09/14/24 10:48:24 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
-**** 09/13/24 09:58:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
-
- ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\LAB1_project-PSpiceFiles\SCHEMATIC1\LAB1_project_an
+ ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
 
  ****     CIRCUIT DESCRIPTION
@@ -32,19 +32,20 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-V_V1         N01855 0 0Vdc
-V_V2         N01855 0 12Vdc
-R_R1         N01855 N01867  2 TC=0,0 
-R_R2         N01867 N01877  3 TC=0,0 
-R_R3         N01877 N01886  4 TC=0,0 
-R_R4         N01902 N01886  5 TC=0,0 
-R_R5         N01909 N01902  3 TC=0,0 
-R_R6         N01909 N01877  4 TC=0,0 
-R_R7         N01909 N01867  6 TC=0,0 
-R_R8         0 N01909  1 TC=0,0 
+V_V1         N06101 N06130 12Vdc
+R_R1         N06101 N06108  9k TC=0,0 
+R_R2         N06108 N06123  3k TC=0,0 
+R_R3         N06130 N06108  6k TC=0,0 
+R_R4         N06130 N06123  3k TC=0,0 
 
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving V_V2. You may break the loop by adding a series resistance
+ERROR(ORPSIM-15142): Node N06101 is floating
+
+ERROR(ORPSIM-15142): Node N06130 is floating
+
+ERROR(ORPSIM-15142): Node N06108 is floating
+
+ERROR(ORPSIM-15142): Node N06123 is floating
 
