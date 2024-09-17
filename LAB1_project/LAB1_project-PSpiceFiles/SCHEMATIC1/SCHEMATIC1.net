@@ -1,11 +1,9 @@
 * source LAB1_PROJECT
-R_R1         N14650 N14663  12 TC=0,0 
-R_R2         N14663 N14676  3.55556 TC=0,0 
-V_V1         N14875 0 4Vdc
-V_V2         N14650 0 10Vdc
-X_H1    N14663 N14875 N14676 0 SCHEMATIC1_H1 
-
-.subckt SCHEMATIC1_H1 1 2 3 4  
-H_H1         3 4 VH_H1 3
-VH_H1         1 2 0V
-.ends SCHEMATIC1_H1
+R_R1         A B  16 TC=0,0 
+R_R7         B N17191  30 TC=0,0 
+R_R6         C B  15 TC=0,0 
+R_R3         0 C  12 TC=0,0 
+R_R4         0 N17191  20 TC=0,0 
+V_V1         A 0 100Vdc
+R_R2         0 B  35 TC=0,0 
+R_R5         C N17191  10 TC=0,0 

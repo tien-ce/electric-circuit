@@ -2,7 +2,6 @@
     ("devices"
         ("R")
         ("VDC")
-        ("H")
     )
     ("instances"
         ("R1"
@@ -11,91 +10,232 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"12")
+                    ("value"	"16")
                     ("pspice_param"	"VALUE")
                 )
-                ("PSpice Model Type"
-                    ("value"	"0011")
-                    ("pspice_param"	"PSpice Model Type")
-                )
-                ("TC2"
-                    ("value"	"0")
-                    ("pspice_param"	"TC2")
-                )
-                ("TC1"
-                    ("value"	"0")
-                    ("pspice_param"	"TC1")
-                )
-                ("POWER"
-                    ("value"	"RMAX")
-                    ("pspice_param"	"POWER")
-                )
-                ("MAX_TEMP"
-                    ("value"	"RTMAX")
-                    ("pspice_param"	"MAX_TEMP")
-                )
-                ("SLOPE"
-                    ("value"	"RSMAX")
-                    ("pspice_param"	"SLOPE")
-                )
-                ("VOLTAGE"
-                    ("value"	"RVMAX")
-                    ("pspice_param"	"VOLTAGE")
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
                 )
                 ("TOLERANCE"
                     ("value"	"")
                     ("pspice_param"	"TOLERANCE")
                 )
-                ("DIST"
-                    ("value"	"FLAT")
-                    ("pspice_param"	"DIST")
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
                 )
             )
         )
-        ("R2"
+        ("R7"
             ("device_name"	"R")
-            ("pspice_path"	"R_R2")
+            ("pspice_path"	"R_R7")
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"3.55556")
+                    ("value"	"30")
                     ("pspice_param"	"VALUE")
                 )
-                ("PSpice Model Type"
-                    ("value"	"0011")
-                    ("pspice_param"	"PSpice Model Type")
-                )
-                ("TC2"
-                    ("value"	"0")
-                    ("pspice_param"	"TC2")
-                )
-                ("TC1"
-                    ("value"	"0")
-                    ("pspice_param"	"TC1")
-                )
-                ("POWER"
-                    ("value"	"RMAX")
-                    ("pspice_param"	"POWER")
-                )
-                ("MAX_TEMP"
-                    ("value"	"RTMAX")
-                    ("pspice_param"	"MAX_TEMP")
-                )
-                ("SLOPE"
-                    ("value"	"RSMAX")
-                    ("pspice_param"	"SLOPE")
-                )
-                ("VOLTAGE"
-                    ("value"	"RVMAX")
-                    ("pspice_param"	"VOLTAGE")
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
                 )
                 ("TOLERANCE"
                     ("value"	"")
                     ("pspice_param"	"TOLERANCE")
                 )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("R6"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R6")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"15")
+                    ("pspice_param"	"VALUE")
+                )
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("R3"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R3")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"12")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+            )
+        )
+        ("R4"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R4")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"20")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
                 )
             )
         )
@@ -105,8 +245,12 @@
             ("level"	"0")
             ("model_params"
                 ("DC"
-                    ("value"	"4Vdc")
+                    ("value"	"100Vdc")
                     ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-254.5W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")
@@ -114,14 +258,50 @@
                 )
             )
         )
-        ("V2"
-            ("device_name"	"VDC")
-            ("pspice_path"	"V_V2")
+        ("R2"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R2")
             ("level"	"0")
             ("model_params"
-                ("DC"
-                    ("value"	"10Vdc")
-                    ("pspice_param"	"DC")
+                ("VALUE"
+                    ("value"	"35")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"557.5mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")
@@ -129,14 +309,46 @@
                 )
             )
         )
-        ("H1"
-            ("device_name"	"H")
-            ("pspice_path"	"VH_H1")
+        ("R5"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R5")
             ("level"	"0")
             ("model_params"
-                ("GAIN"
-                    ("value"	"3")
-                    ("pspice_param"	"GAIN")
+                ("VALUE"
+                    ("value"	"10")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
                 )
                 ("PSpice Model Type"
                     ("value"	"0011")

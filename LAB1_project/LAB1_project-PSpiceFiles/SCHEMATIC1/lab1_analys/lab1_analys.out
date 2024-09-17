@@ -1,5 +1,5 @@
 
-**** 09/17/24 19:50:21 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 21:28:01 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-lab1_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_analys.sim ] 
 
@@ -32,21 +32,19 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-R_R1         N14650 N14663  12 TC=0,0 
-R_R2         N14663 N14676  3.55556 TC=0,0 
-V_V1         N14875 0 4Vdc
-V_V2         N14650 0 10Vdc
-X_H1    N14663 N14875 N14676 0 SCHEMATIC1_H1 
-
-.subckt SCHEMATIC1_H1 1 2 3 4  
-H_H1         3 4 VH_H1 3
-VH_H1         1 2 0V
-.ends SCHEMATIC1_H1
+R_R1         A B  16 TC=0,0 
+R_R7         B N17191  30 TC=0,0 
+R_R6         C B  15 TC=0,0 
+R_R3         0 C  12 TC=0,0 
+R_R4         0 N17191  20 TC=0,0 
+V_V1         A 0 100Vdc
+R_R2         0 B  35 TC=0,0 
+R_R5         C N17191  10 TC=0,0 
 
 **** RESUMING lab1_analys.cir ****
 .END
 
-**** 09/17/24 19:50:21 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 21:28:01 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-lab1_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_analys.sim ] 
 
@@ -61,7 +59,7 @@ VH_H1         1 2 0V
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N14650)   10.0000 (N14663)    4.0000 (N14676)  -12.0000 (N14875)    4.0000 
+(    A)  100.0000  (    B)   42.1790  (    C)   18.3100  (N17191)   17.6560 
 
 
 
@@ -69,17 +67,15 @@ VH_H1         1 2 0V
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -4.000E+00
-    V_V2        -5.000E-01
-    X_H1.VH_H1  -4.000E+00
+    V_V1        -3.614E+00
 
-    TOTAL POWER DISSIPATION   2.10E+01  WATTS
+    TOTAL POWER DISSIPATION   3.61E+02  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 09/17/24 19:50:21 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 21:28:01 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-lab1_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_analys.sim ] 
 
@@ -91,5 +87,5 @@ VH_H1         1 2 0V
 
 
 
-  Total job time (using Solver 1)   =        3.08
+  Total job time (using Solver 1)   =        3.91
 
