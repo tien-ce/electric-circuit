@@ -1,5 +1,5 @@
 
-**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -32,14 +32,17 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-V_V1         N06454 0 24Vdc
-R_R1         N06466 N06454  15k TC=0,0 
-R_R2         0 N06466  3.9k TC=0,0 
+R_R1         N09237 N09208  12k TC=0,0 
+R_R2         N09222 N09208  18k TC=0,0 
+R_R3         0 N09237  4k TC=0,0 
+R_R4         0 N09222  9k TC=0,0 
+R_R5         N09222 N09237  6k TC=0,0 
+V_V1         N09208 0 12Vdc
 
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -54,7 +57,7 @@ R_R2         0 N06466  3.9k TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N06454)   24.0000 (N06466)    4.9524 
+(N09208)   12.0000 (N09222)    3.6000 (N09237)    3.2000 
 
 
 
@@ -62,15 +65,15 @@ R_R2         0 N06466  3.9k TC=0,0
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -1.270E-03
+    V_V1        -1.200E-03
 
-    TOTAL POWER DISSIPATION   3.05E-02  WATTS
+    TOTAL POWER DISSIPATION   1.44E-02  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 09/15/24 15:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -82,5 +85,6 @@ R_R2         0 N06466  3.9k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .74
+  License check-out time            =         .56
+  Total job time (using Solver 1)   =        1.08
 
