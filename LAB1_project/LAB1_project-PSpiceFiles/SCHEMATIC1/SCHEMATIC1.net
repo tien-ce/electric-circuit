@@ -1,7 +1,11 @@
 * source LAB1_PROJECT
-R_R1         N09237 N09208  12k TC=0,0 
-R_R2         N09222 N09208  18k TC=0,0 
-R_R3         0 N09237  4k TC=0,0 
-R_R4         0 N09222  9k TC=0,0 
-R_R5         N09222 N09237  6k TC=0,0 
-V_V1         N09208 0 12Vdc
+R_R1         N10205 N10212  10V TC=0,0 
+R_R2         0 N10212  20V TC=0,0 
+V_V1         N10205 0 30Vdc
+V_V2         N10212 N10233 8V
+X_F1    N10233 0 N10205 N10205 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 0.4
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1

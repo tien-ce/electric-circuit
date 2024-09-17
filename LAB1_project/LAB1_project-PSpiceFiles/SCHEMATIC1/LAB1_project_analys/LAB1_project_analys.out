@@ -1,5 +1,5 @@
 
-**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 15:49:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -32,17 +32,21 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-R_R1         N09237 N09208  12k TC=0,0 
-R_R2         N09222 N09208  18k TC=0,0 
-R_R3         0 N09237  4k TC=0,0 
-R_R4         0 N09222  9k TC=0,0 
-R_R5         N09222 N09237  6k TC=0,0 
-V_V1         N09208 0 12Vdc
+R_R1         N10205 N10212  10V TC=0,0 
+R_R2         0 N10212  20V TC=0,0 
+V_V1         N10205 0 30Vdc
+V_V2         N10212 N10233 8V
+X_F1    N10233 0 N10205 N10205 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 0.4
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1
 
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 15:49:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -57,7 +61,7 @@ V_V1         N09208 0 12Vdc
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N09208)   12.0000 (N09222)    3.6000 (N09237)    3.2000 
+(N10205)   30.0000 (N10212)    8.0000 (N10233)    0.0000 
 
 
 
@@ -65,15 +69,17 @@ V_V1         N09208 0 12Vdc
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -1.200E-03
+    V_V1        -2.200E+00
+    V_V2         1.800E+00
+    X_F1.VF_F1   1.800E+00
 
-    TOTAL POWER DISSIPATION   1.44E-02  WATTS
+    TOTAL POWER DISSIPATION   5.16E+01  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 09/17/24 13:47:53 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 09/17/24 15:49:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -85,6 +91,5 @@ V_V1         N09208 0 12Vdc
 
 
 
-  License check-out time            =         .56
-  Total job time (using Solver 1)   =        1.08
+  Total job time (using Solver 1)   =         .70
 

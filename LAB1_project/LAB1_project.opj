@@ -1,6 +1,6 @@
 (ExpressProject "LAB1_project"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[09/15/24]")
+  (SoftwareVersion "23.1-2024 S001-[09/17/24]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -13,18 +13,22 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (PSPICE_Regenerate_Netlist_Flag "TRUE")
-    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+    (PSPICE_DoNot_Show_WarningDlg "TRUE")
+    (Display_Online_DRC_Results "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\lab1_project-pspicefiles\schematic1\schematic1.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile
-         ".\lab1_project-pspicefiles\schematic1\lab1_project_analys.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\lab1_project-pspicefiles\schematic1\lab1_project_analys.sim"
         (DisplayName "SCHEMATIC1-LAB1_project_analys")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lab1_project-pspicefiles\schematic1\lab1_analys.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab1_project-pspicefiles\schematic1\lab1_analys.sim"
+        (DisplayName "SCHEMATIC1-lab1_analys")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -39,6 +43,26 @@
       (FullPartName "VDC.Normal")
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (F
+      (FullPartName "F.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (G
+      (FullPartName "G.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -62,11 +86,6 @@
       (FullPartName "VAC.Normal")
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (E
-      (FullPartName "E.Normal")
-      (LibraryName
-         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "thuyh")
   (GlobalState
@@ -81,15 +100,5 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1395 24 765")
-        (Scroll "-189 18")
-        (Zoom "101")
-        (Occurrence "/"))
-      (Path "E:\ELECTRIC-CIRCUIT\LAB1_PROJECT\LAB1_PROJECT.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 880"))
+      (Tab 0))))

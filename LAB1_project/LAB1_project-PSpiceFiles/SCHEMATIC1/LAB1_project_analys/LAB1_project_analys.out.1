@@ -1,5 +1,5 @@
-
-**** 09/17/24 13:41:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+**** 09/17/24 15:48:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-LAB1_project_analys"  [ E:\electric-circuit\LAB1_project\lab1_project-pspicefiles\schematic1\lab1_project_an
 
@@ -32,49 +32,19 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LAB1_PROJECT
-R_R1         N09237 N09208  12k TC=0,0 
-R_R2         N09222 N09208  18k TC=0,0 
-R_R3         N09262 N09237  4k TC=0,0 
-R_R4         N09262 N09222  9k TC=0,0 
-R_R5         N09222 N09237  6k TC=0,0 
-V_V1         N09208 N09262 12Vdc
+R_R1         N10205 N10212  10V TC=0,0 
+R_R2         0 N10212  20V TC=0,0 
+V_V1         N10205 0 30Vdc
+V_V2         N10212 N10233 8V
+X_F1    N10205 N10205 0 N10233 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 0.4
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1
 
 **** RESUMING LAB1_project_analys.cir ****
 .END
 
-WARNING(ORPSIM-15223): Library file C:\cds_spb_home\cdssetup\pspTILibDir\nom_pspti.lib has changed since index file nom_pspti.ind was created.
-
-WARNING(ORPSIM-15227): The timestamp changed from Thu Sep 12 01:12:34 2024 to Tue Sep 17 13:38:34 2024.
-
-INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
-b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
-$CDNENCFINISH_ADV2
-.ENDS
-*$
-.SUBCKT VC_RES1_68k     1 2     4 5
-$CDNENCSTART_ADV2
-17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
-4338d7c6b789b936510049641c41694601a828b94bca95e37d9595892e84fe4adde61b3186a8a4ced614ffd7534112da752ebe196261f5fadbdc1df943f8b053
-b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
-$CDNENCFINISH_ADV2
-.ENDS
-*$
-.model Mbreakp PMOS_SIMPLE 
-$CDNENCSTART_ADV2
-17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
-d0a62a7eecff332c2c1a7f28e691e8355b0d507d4d4167bdded4599b6b3f07ed49ca0bf013e9ee48384f4a7c200902eb9bd5e11d04cca5bd57a5eb5ba1dfe8a6
-$CDNENCFINISH_ADV2
-*$
-
-WARNING(ORPSIM-15195): Model type unknown
-
-Index has 119099 entries from 5349 file(s).
-
-ERROR(ORPSIM-15142): Node N09237 is floating
-
-ERROR(ORPSIM-15142): Node N09208 is floating
-
-ERROR(ORPSIM-15142): Node N09222 is floating
-
-ERROR(ORPSIM-15142): Node N09262 is floating
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving X_F1.VF_F1. You may break the loop by adding a series resistance
 
